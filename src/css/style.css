@@ -4,43 +4,33 @@ html {
 }
 
 .college-card {
-	margin-bottom: 20px;
-	border: 1px solid #ddd;
-	border-radius: 8px;
-	padding: 15px;
-	background-color: #f9f9f9;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #f9f9f9;
 }
 
 
 .college-image {
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
-	border-radius: 8px;
-	margin-right: 25px;
-	display: block;
-}
-
-
-.college-info {
-	margin-left: 50px;
-	display: inline-block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
 
 .college-info h5 {
-	font-size: 32px;
-	margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .college-info p {
-	margin: 5px 0;
+  margin: 5px 0;
 }
 
 .college-info a {
-	text-decoration: none;
-	color: #007bff;
-}
-
-.college-info a:hover {
-	text-decoration: underline;
+  text-decoration: none;
+  color: #007bff;
 }
